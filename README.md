@@ -1,41 +1,59 @@
 # ☕ CoffeeSentinel-X
 
-**CoffeeSentinel-X** is a mobile intelligence system built on the ODK-X platform to diagnose Coffee Wilt Disease (CWD) in real time using AI-driven image recognition. Designed for smallholder coffee farmers and extension workers, it provides instant feedback, GPS-linked records, and agronomic advice — even offline.
+**CoffeeSentinel-X** is an AI-powered mobile system built on **ODK-X** for diagnosing **Coffee Wilt Disease (CWD)** in real time and supporting smallholder coffee farmers with decision tools and agronomic advice.
 
 ---
 
-## 📌 Project Objectives
+## 📚 Table of Contents
 
-- Curate and annotate a verified image dataset of coffee plants (healthy and diseased).
-- Train a lightweight convolutional neural network (CNN) model for on-device diagnosis.
-- Integrate the model into an ODK-X workflow for real-time detection.
-- Extend the platform with features relevant to coffee farming (plot mapping, record keeping, and advisory content).
+- [🔍 Project Objectives](#-project-objectives)
+- [🌿 Key Features](#-key-features)
+- [🧠 Technical Stack](#-technical-stack)
+- [📂 Repository Structure](#-repository-structure)
+- [🚀 Getting Started](#-getting-started)
+- [🏗️ Model Overview](#️-model-overview)
+- [🌍 Use Cases](#-use-cases)
+- [🤝 Contributing](#-contributing)
+- [📄 License](#-license)
+- [📅 Project Status](#-project-status)
+- [🌟 Acknowledgements](#-acknowledgements)
+- [📬 Contact](#-contact)
+
+---
+
+## 🔍 Project Objectives
+
+- ✅ Curate and annotate a dataset of coffee plants (healthy and diseased)
+- ✅ Train a CNN-based image model for CWD detection
+- ✅ Integrate model with ODK-X for mobile usage
+- ✅ Extend with features useful to coffee farmers (mapping, advice, tracking)
 
 ---
 
 ## 🌿 Key Features
 
-- **📷 On-device diagnosis:** Identify Coffee Wilt Disease through image capture.
-- **🧠 AI-Powered:** Lightweight TensorFlow Lite model trained on curated field data.
-- **📍 Geo-tagging:** GPS-based farm and plot tracking.
-- **📶 Offline-first:** Fully functional in low-connectivity rural settings.
-- **📋 ODK-X Integration:** Survey-based workflow with sync and task management.
-- **📚 Farmer Tools:** Access to agronomic practices, soil condition notes, and pest control options.
+- 📷 **Camera-based Diagnosis**: Detects Coffee Wilt Disease from plant images.
+- 🧠 **On-device ML Model**: Efficient TensorFlow Lite implementation.
+- 📍 **GPS Logging**: Location-aware plot and plant tracking.
+- 🔁 **Offline-first Workflow**: Designed for rural areas with low connectivity.
+- 📋 **ODK-X Forms**: Survey-based task and data collection.
+- 🌱 **Farmer Support Tools**: Guidance, logging, and market tips (in development).
 
 ---
 
 ## 🧠 Technical Stack
 
-| Layer             | Technology                 |
-|------------------|----------------------------|
-| Data Collection  | ODK-X (Survey + Services)  |
-| ML Inference     | TensorFlow Lite / PyTorch Mobile |
-| Annotation Tool  | CVAT / Roboflow            |
-| Backend (optional) | Django + PostgreSQL        |
-| Deployment       | Android APK + Firebase / Local server |
-| Repository       | GitHub                      |
+| Component         | Technology                |
+|------------------|---------------------------|
+| Survey Interface | ODK-X (Survey, Services)  |
+| ML Inference     | TensorFlow Lite           |
+| Annotation       | CVAT or Roboflow          |
+| Backend (optional) | Django + PostgreSQL     |
+| Deployment       | Android APK, Firebase     |
+| Hosting          | GitHub                    |
 
 ---
 
-## 📂 Repository Structure
+<details>
+<summary>📂 <strong>Repository Structure</strong></summary>
 
