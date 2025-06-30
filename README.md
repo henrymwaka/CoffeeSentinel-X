@@ -56,4 +56,32 @@
 
 <details>
 <summary>📂 <strong>Repository Structure</strong></summary>
+CoffeeSentinel-X/
+│
+├── model/ # Training code, notebooks, TFLite model
+│ ├── train/
+│ └── tflite/
+│
+├── odkx_app/ # ODK-X forms and sync config
+│ ├── survey/
+│ └── services/
+│
+├── dashboard/ # Optional backend/visualization layer
+│ ├── backend/
+│ └── frontend/
+│
+├── docs/ # Documentation files
+│ ├── MODEL_ARCHITECTURE.md
+│ ├── DATA_CURATION.md
+│ └── USER_GUIDE.md
+│
+├── media/ # Sample images, logos, visuals
+│
+├── LICENSE
+└── README.md
+
+yaml
+Copy
+Edit
+
 
